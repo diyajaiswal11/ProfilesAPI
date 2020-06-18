@@ -16,7 +16,8 @@ urlpatterns = [
     #path('',include(router.urls)),
     path('',views.profile,name='profile'),
     #path('',detail_list_view),
-    path('user_detail/<int:pk>/',views.user_detail,name='user_detail'),
-    path('favourite/',views.favourite,name='favourite')
+    path('user_detail/',views.user_detail,name='user_detail'),
+    path('favourite/',views.favourite,name='favourite'),
+    path('loginreg/',views.loginreg,name='loginreg'),
     #path('userdetail/',views.userdetail,name='userdetail'),
 ]
